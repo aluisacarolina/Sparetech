@@ -65,7 +65,7 @@ def scrape_all_pages(base_urls):
     return all_products
 
 base_urls = {
-    'Motors': "https://www.espares.co.uk/search/ma856pt1536/dishwashers/motors/bosch",
+    'Switches': "https://www.espares.co.uk/search/ma856pt1873/dishwashers/switches/bosch",
     'Valves': "https://www.espares.co.uk/search/ma856pt1874/dishwashers/valves/bosch",
 }
 
