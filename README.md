@@ -1,7 +1,7 @@
 **🔍 The Problem**
 SpareTech faces a common challenge - efficiently collecting and organizing detailed information about spare parts, specifically from the Bosch product line. Manual extraction from the Espares website does not only time-consuming but prone to errors, hindering the process of updating their database.
 
-**🎯 The Goal **
+🎯 **The Goal **
 My objective was clear - design a script that could swiftly gather essential information for two spare parts each from dishwashers, cookers & hobs, and fridges & freezers. The end result needed to be easily analyzable, structured, and stored for future use.
 
 💡 **How It Helps SpareTech**
