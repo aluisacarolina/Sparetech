@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 def extract_product_info(product_container, part_type):
-    product_id = product_container['data-product-id']  # Assuming the product ID is stored as a data attribute
+    product_id = product_container['data-product-id'] 
 
     product_name = product_container.find("h2", class_="heading").text.strip()
 
@@ -15,8 +15,8 @@ def extract_product_info(product_container, part_type):
     else:
         return None  # Skip products without a price
 
-    product_brand = "Bosch"  # You may need to extract this dynamically from the page
-    product_category = part_type.capitalize()  # Use the part type as the category
+    product_brand = "Bosch"  
+    product_category = part_type.capitalize() 
     product_dimension = product_container.find("p", class_="e-stock-info").text.strip()
     product_description = product_container.find("div", class_="details").find("p").text.strip()
 
